@@ -6,21 +6,27 @@ div {
   border-radius: 12px;
 }
 #teams {
-	color: blue;
+	color: white;
 }
 .Ladies {
-	background: url("http://i.imgur.com/zESa2is.jpg");
+	background: url("http://i.imgur.com/fhRjh2M.jpg?1");
 	background-size: cover;
 	text-align: center;
 }
 .Mens {
-	width: 500px;
-	height: 500px;
+	background: url("http://i.imgur.com/LBreOxV.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.Mixed {
+	background: url("http://i.imgur.com/ThaHl0x.jpg?1");
+	background-size: cover;
+	text-align: center;
 }
 header {
 	background: url("http://i.imgur.com/p3o1QjF.jpg?1");
 	background-size: 100%;
-	padding: 120px 0px 120px 120px;
 	text-align: center;
 	color: white;
 }
@@ -36,4 +42,7 @@ li {
 	padding: 0px 10px 0px 10px;
 	color: black;
 	text-align: center;
+}
+header h1 {
+	font-size: 120px;
 }
