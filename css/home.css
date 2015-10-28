@@ -1,1 +1,39 @@
-css lax
+div {
+  height: 200px;
+  background-size: cover;
+  margin: 40 0 0 0;
+  position: relative;
+  border-radius: 12px;
+}
+#teams {
+	color: blue;
+}
+.Ladies {
+	background: url("http://i.imgur.com/zESa2is.jpg");
+	background-size: cover;
+	text-align: center;
+}
+.Mens {
+	width: 500px;
+	height: 500px;
+}
+header {
+	background: url("http://i.imgur.com/p3o1QjF.jpg?1");
+	background-size: 100%;
+	padding: 120px 0px 120px 120px;
+	text-align: center;
+	color: white;
+}
+div {
+ 	background-size: cover;
+}
+ul {
+	padding: 10px;
+	background: white;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	color: black;
+	text-align: center;
+}
