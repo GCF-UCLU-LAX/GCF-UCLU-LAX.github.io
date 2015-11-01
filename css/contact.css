@@ -1,0 +1,37 @@
+ul {
+	padding: 10px;
+	background: white;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	color: black;
+	text-align: center;
+}
+input["type=submit"]{
+	background: red;
+	color: white;
+}
+p {
+	font-size: 20px;
+}
+.Contactform {
+	text-align: center;
+	padding: 20px;
+}
+ul {
+	padding: 10px;
+	background: white;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	color: black;
+	text-align: center;
+}
+header {
+	background: url("http://i.imgur.com/uswwh9h.jpg?1");
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
