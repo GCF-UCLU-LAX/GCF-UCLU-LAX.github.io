@@ -13,10 +13,13 @@ header {
 	text-align: center;
 	color: white;
 }
-img {
-	
-
-}
 .image {
-	border: 20px solid black;
+	border: 10px solid purple;
+}
+h1 {
+	color: blue;
+}
+p {
+	color: black;
+	padding: 20px 20px 20px 20px;
 }
