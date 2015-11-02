@@ -46,3 +46,6 @@ li {
 header h1 {
 	font-size: 120px;
 }
+a:link {
+	color: purple;
+}
