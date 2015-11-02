@@ -49,3 +49,6 @@ header h1 {
 a:link {
 	color: purple;
 }
+h1: hover {
+	background: yellow;
+}
