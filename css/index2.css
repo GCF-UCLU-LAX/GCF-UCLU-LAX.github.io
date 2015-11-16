@@ -1,0 +1,62 @@
+ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: white;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	color: black;
+	text-align: center;
+}
+header {
+	background-size: 100%;
+	text-align: center;
+	color: white;
+}
+
+#menu {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	z-index: 1000;
+}
+
+.jumbotron{
+  min-height: 600px;
+  background-image:url(http://i.imgur.com/WVbWSrf.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welcome {
+	text-align: center;
+	padding: 40px 40px 40px 40px;
+}
+
+#teams {
+	color: white;
+	height: 200px;
+}
+.Ladies {
+	background: url("http://i.imgur.com/fhRjh2M.jpg?1");
+	background-size: cover;
+	text-align: center;
+}
+.Mens {
+	background: url("http://i.imgur.com/9yUhIe7.jpg");
+	background-size: cover;
+	text-align: center;
+}
+.Mixed {
+	background: url("http://i.imgur.com/ThaHl0x.jpg?1");
+	background-size: cover;
+	text-align: center;
+}
+div {
+  height: 200px;
+  border-radius: 12px;
+}

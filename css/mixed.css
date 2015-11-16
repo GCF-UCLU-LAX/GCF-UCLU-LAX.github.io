@@ -1,3 +1,12 @@
+#menu {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	z-index: 1000;
+}
 ul {
 	padding: 10px;
 	background: white;
@@ -23,7 +32,6 @@ p {
 	color: black;
 	padding: 20px 20px 20px 20px;
 }
-
 
 .border {
 	border: 3px solid red;

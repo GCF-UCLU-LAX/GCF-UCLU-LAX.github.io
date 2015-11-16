@@ -1,3 +1,12 @@
+#menu {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  z-index: 1000;
+}
 ul {
   padding: 10px;
   background: white;
@@ -13,6 +22,17 @@ header {
   text-align: center;
   color: white;
 }
+.jumbotron{
+  min-height: 500px;
+  background-image:url(http://i.imgur.com/tf3nQqO.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header {
+     text-align: center;
+     background-size:cover;
+     color: solid blue;
+   }
 
 h2{
   color: black;
@@ -27,9 +47,6 @@ h2{
 
 body{
       text-align: center;
-      background:url();
-      background-size:cover;
-      background-position:center;
       color: white;
       font-family: Helvetica;
       }
@@ -108,18 +125,6 @@ border​-​color​:​#b62f26;
   margin: 0 auto;
 }
 
-.jumbotron{
-  min-height: 400px;
-  background-image:url(https://www.union.ic.ac.uk/acc/lacrosse/wp-content/uploads/2013/03/Screen-Shot-2013-03-04-at-12.20.33.png);
-  background-size: cover;
-  background-attachment: fixed;
-}
-header {
-     text-align: center;
-     
-     background-size:cover;
-     color: solid blue;
 
-   }
 
 

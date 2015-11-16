@@ -24,17 +24,10 @@ div {
 	background-size: cover;
 	text-align: center;
 }
-header {
-	background: url("http://i.imgur.com/p3o1QjF.jpg?1");
-	background-size: 100%;
-	text-align: center;
-	color: white;
-}
 div {
  	background-size: cover;
 }
 ul {
-	padding: 10px;
 	background: white;
 }
 li {
@@ -46,4 +39,18 @@ li {
 a:link {
 	color: purple;
 }
-
+.jumbotron {
+	min-height: 500px;
+  background-image:url("http://i.imgur.com/p3o1QjF.jpg?1");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#menu {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	z-index: 1000;
+}
