@@ -42,18 +42,12 @@ header {
 	height: 200px;
 }
 .Ladies {
-	background: url("http://i.imgur.com/fhRjh2M.jpg?1");
-	background-size: cover;
 	text-align: center;
 }
 .Mens {
-	background: url("http://i.imgur.com/9yUhIe7.jpg");
-	background-size: cover;
 	text-align: center;
 }
 .Mixed {
-	background: url("http://i.imgur.com/ThaHl0x.jpg?1");
-	background-size: cover;
 	text-align: center;
 }
 div {

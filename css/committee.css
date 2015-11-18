@@ -25,6 +25,10 @@ h2{
 body {
 	background: #f1f23e;
 }
+div {
+  border-radius: 12px;
+}
+
 .jumbotron{
   min-height: 500px;
   background-image:url(http://i.imgur.com/Kxngugy.jpg);
@@ -54,4 +58,9 @@ body {
 }
 .all {
 	background-color: red;
+}
+.club {
+	height: 60px;
+	width: 1800px;
+	background: blue;
 }
