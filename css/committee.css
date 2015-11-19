@@ -25,10 +25,6 @@ h2{
 body {
 	background: #f1f23e;
 }
-div {
-  border-radius: 12px;
-}
-
 .jumbotron{
   min-height: 500px;
   background-image:url(http://i.imgur.com/Kxngugy.jpg);
@@ -42,7 +38,7 @@ div {
 	color: black;
 }
 .position{
-	color: #d20dca;
+	color: blue;
 }
 #menu {
 	position: fixed;
@@ -52,4 +48,10 @@ div {
 	top: 0;
 	margin: auto;
 	z-index: 1000;
+}
+.headerbox {
+	border: 20px double black;
+}
+.all {
+	background-color: red;
 }
