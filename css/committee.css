@@ -42,7 +42,7 @@ div {
 	color: black;
 }
 .position{
-	color: blue;
+	color: #d20dca;
 }
 #menu {
 	position: fixed;
@@ -52,15 +52,4 @@ div {
 	top: 0;
 	margin: auto;
 	z-index: 1000;
-}
-.headerbox {
-	border: 20px double black;
-}
-.all {
-	background-color: red;
-}
-.club {
-	height: 60px;
-	width: 1800px;
-	background: blue;
 }
