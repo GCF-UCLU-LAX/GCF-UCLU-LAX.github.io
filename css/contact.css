@@ -1,10 +1,33 @@
 #menu {
 	position: fixed;
 	width: 100%;
-	left: 0;
-	right: 0;
-	top: 0;
-	margin: auto;
+	margin: 0 auto;
+	z-index: 1000;
+}
+
+
+ body{
+      text-align: center;
+	
+   }
+
+
+.jumbotron{
+  min-height: 500px;
+  background-image:url("http://i.imgur.com/uswwh9h.jpg?1");
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+
+
+header {
+	
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
 	z-index: 1000;
 }
 ul {
@@ -17,30 +40,44 @@ li {
 	color: black;
 	text-align: center;
 }
-input["type=submit"]{
-	background: red;
-	color: white;
+
+input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
 }
+
+
+
 p {
 	font-size: 20px;
+	font-family: Lobster;
+	text-align: center;
 }
-.Contactform {
+
+#Contactform {
 	text-align: center;
 	padding: 20px;
-}
+	min-height: 50px; }
+
 ul {
 	padding: 10px;
 	background: white;
 }
+
 li {
-	display: inline;
+	display: inline block;
 	padding: 0px 10px 0px 10px;
 	color: black;
 	text-align: center;
-}
-header {
-	background: url("http://i.imgur.com/uswwh9h.jpg?1");
-	background-size: cover;
-	text-align: center;
-	color: white;
 }
