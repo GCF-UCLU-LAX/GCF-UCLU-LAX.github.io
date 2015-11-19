@@ -36,3 +36,9 @@ p {
 .border {
 	border: 3px solid red;
 }
+.jumbotron{
+  min-height: 500px;
+  background-image:url(http://i.imgur.com/pxZrN2a.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}

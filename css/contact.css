@@ -31,13 +31,11 @@ header {
 
 .jumbotron{
   min-height: 500px;
-  background-image:url("http://i.imgur.com/uswwh9h.jpg?1");
+  background-image:url("../images/team4.jpg");
   background-size:cover;
   background-position:center;
   background-attachment: fixed;
 }
-
-
 
 
 input {
