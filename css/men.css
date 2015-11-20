@@ -8,7 +8,8 @@
   z-index: 1000;
 }
 ul {
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: white;
 }
 li {
@@ -22,17 +23,13 @@ header {
   text-align: center;
   color: white;
 }
+
 .jumbotron{
   min-height: 500px;
   background-image:url(http://i.imgur.com/tf3nQqO.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
-header {
-     text-align: center;
-     background-size:cover;
-     color: solid blue;
-   }
 
 h2{
   color: black;
