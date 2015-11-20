@@ -20,6 +20,7 @@ header {
   margin: auto;
   z-index: 1000;
 }
+
 ul {
 	padding: 10px;
 	background: white;
@@ -45,11 +46,11 @@ h2{
       
       font-size:20px;
       color: black;
+        font-family: Lobster;
     }
 
 body{
       text-align: center;
-	    background:url();
       background-size:cover;
       background-position:center;
       color: white;
@@ -110,25 +111,15 @@ padding: 10px;
 margin: 0 auto;
 }
 
-.​btn​-​lg{
-background​-​color​:​#00acee;
-border​-​color​:​#009ad5;
-}
-.​btn​-​facebook​{
-background​-​color​:​#4868ac;
-border​-​color​:​#314776;
-}
-.​btn​-​pinterest​{
-background​-​color​:​#b62f26;
-border​-​color​:​#b62f26;
+.btn-lg{
+  background-color: #00acee;
+  border-color: #009ad5;
 }
 
 
-#social-buttons​button{
-  color: white;
-  padding: 10px;
-  margin: 0 auto;
-}
+
+
+
 
 
 
