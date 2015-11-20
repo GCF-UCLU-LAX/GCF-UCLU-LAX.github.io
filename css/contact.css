@@ -1,15 +1,37 @@
 #menu {
 	position: fixed;
 	width: 100%;
-	left: 0;
-	right: 0;
-	top: 0;
-	margin: auto;
+	margin: 0 auto;
+	z-index: 1000;
+}
+
+
+ body{
+      text-align: center;
+	
+   }
+
+
+.jumbotron{
+  min-height: 500px;
+  background-image:url("http://i.imgur.com/uswwh9h.jpg?1");
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+
+
+header {
+	
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
 	z-index: 1000;
 }
 ul {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 10px;
 	background: white;
 }
 li {
@@ -18,25 +40,6 @@ li {
 	color: black;
 	text-align: center;
 }
-header {
-	background-size: 100%;
-	text-align: center;
-	color: white;
-}
-
- body{
-      text-align: center;
-   }
-
-
-.jumbotron{
-  min-height: 500px;
-  background-image:url("../images/team4.jpg");
-  background-size:cover;
-  background-position:center;
-  background-attachment: fixed;
-}
-
 
 input {
     border: 5px solid white; 
@@ -65,7 +68,16 @@ p {
 #Contactform {
 	text-align: center;
 	padding: 20px;
-	min-height: 50px; 
+	min-height: 50px; }
+
+ul {
+	padding: 10px;
+	background: white;
 }
 
-
+li {
+	display: inline block;
+	padding: 0px 10px 0px 10px;
+	color: black;
+	text-align: center;
+}
