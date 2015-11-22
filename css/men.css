@@ -53,35 +53,36 @@ small {
     }
 
 
-
 #first {
-  border:2px solid black;
+  border-style: solid;
+  border-color: #820ab8;
   border-radius: 20px;
   width: 300px;
   height:300px;
-  background: white;
-  margin: 20px 20px 20px 0px;
+  background: #b87ad4;
+  margin:20px 20px 20px 0px; 
   float: center;
 }
 
 #second {
-  border:2px solid black;
+  border-style: solid;
+  border-color: #820ab8;
   border-radius: 20px;
   width: 300px;
   height:300px;
-  background: white;
-  margin: 20px 20px 20px 0px;
+  background: #b87ad4;
+  margin:20px 20px 20px 0px; 
   float: center;
 }
-
 #third {
-  border:2px solid black;
+  border-style: solid;
+  border-color: #820ab8;
   border-radius: 20px;
   width: 300px;
   height:300px;
-  background: white;
-  margin: 20px 20px 20px 0px;
-  float: center;
+  background: #b87ad4;
+  margin:20px 40px 20px 0px; 
+  float: right;
 }
 
 #social-buttons​button{
@@ -90,24 +91,42 @@ padding: 10px;
 margin: 0 auto;
 }
 
-.​btn​-​lg{
-background​-​color​:​#00acee;
-border​-​color​:​#009ad5;
+.btn-lg{
+  background-color: #00acee;
+  border-color: #009ad5;
 }
-.​btn​-​facebook​{
-background​-​color​:​#4868ac;
-border​-​color​:​#314776;
-}
-.​btn​-​pinterest​{
-background​-​color​:​#b62f26;
-border​-​color​:​#b62f26;
+
+.image {
+  margin: 20px 20px 20px 30px;
+  border: 10px solid purple;
 }
 
 
-#social-buttons​button{
-  color: white;
-  padding: 10px;
-  margin: 0 auto;
+@media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+
+  .image {
+    float: left;
+    margin: 5 5 5 5;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+} 
+
 }
 
 
