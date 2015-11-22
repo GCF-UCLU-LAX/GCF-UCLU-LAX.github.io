@@ -117,25 +117,20 @@ h2{
 }
 
 
- @media(max-width:480px) {
+@media (max-width: 500px) {
+  li{
+    display: block;
+    padding: 2px;
+  }
 
- .container {
-  width: 538px;
-}
-section,
-aside {
-  margin: 10px;
-}
-section {
-  float: left;
-  width: 340px;
-}
-aside {
-  float: right;
-  width: 158px;
-}
-   }
+  p{
+    font-size: 20px;
+  }
 
+  body {
+    background: purple;
+  }
+}
 
 
 
