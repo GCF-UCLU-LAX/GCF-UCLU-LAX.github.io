@@ -73,6 +73,11 @@ small {
   float: center;
 }
 
+#form {
+  text-align: center;
+  padding: 20px;
+  min-height: 50px; }
+
 
 
 #social-buttons​button{
