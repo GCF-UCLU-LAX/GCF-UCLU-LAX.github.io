@@ -41,7 +41,7 @@ h2{
       
       font-size:20px;
       color: black;
-        font-family: Lobster;
+        font-family:Lobster;
     }
 
 body{
@@ -92,19 +92,33 @@ margin: 0 auto;
 }
 
 
-@media (max-width: 500px) {
-  li{
-    display: block;
-    padding: 2px;
+
+
+@media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
   }
 
-  p{
+  p {
     font-size: 20px;
   }
 
-  body {
+  body{
     background: purple;
+   
   }
+
+  .image {
+    float: left;
+    margin: 5 5 5 5;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+} 
+
 }
 
 
