@@ -22,6 +22,9 @@ header {
 	text-align: center;
 	color: white;
 }
+
+
+
 .image {
 	border: 10px solid purple;
 }
@@ -29,6 +32,7 @@ h1 {
 	color: blue;
 }
 p {
+  font-family: Lobster; Helvetica;
 	color: black;
 	padding: 20px 20px 20px 20px;
 }
@@ -37,4 +41,25 @@ p {
   min-height: 500px;
   background-image:url(http://i.imgur.com/pxZrN2a.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; }
+
+
+  @media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+
+
+
+}
