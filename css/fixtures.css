@@ -40,7 +40,7 @@ header {
 
   li {
       display: block;
-     padding: 2px;
+      padding: 2px;
   }
 
   p {
@@ -51,7 +51,5 @@ header {
     background: purple;
    
   }
-
-   
 
 }
