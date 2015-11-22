@@ -3,6 +3,7 @@
   background-image:url(http://i.imgur.com/fhRjh2M.jpg?1);
   background-size: cover;
   background-attachment: fixed;
+
 }
 
 #menu {
@@ -14,6 +15,8 @@
   margin: auto;
   z-index: 1000;
 }
+
+
 
 ul {
   padding-top: 20px;
@@ -32,16 +35,13 @@ header {
   color: white;
 }
 
-h2{
-  color: white;
-  font-size:40px;
-}
+
 
  p {
       
       font-size:20px;
       color: black;
-        font-family: Lobster;
+      font-family: Lobster;
     }
 
 body{
@@ -110,6 +110,31 @@ margin: 0 auto;
   background-color: #00acee;
   border-color: #009ad5;
 }
+
+h2{
+  color: white;
+  font-size:40px;
+}
+
+
+ @media(max-width:480px) {
+
+ .container {
+  width: 538px;
+}
+section,
+aside {
+  margin: 10px;
+}
+section {
+  float: left;
+  width: 340px;
+}
+aside {
+  float: right;
+  width: 158px;
+}
+   }
 
 
 
