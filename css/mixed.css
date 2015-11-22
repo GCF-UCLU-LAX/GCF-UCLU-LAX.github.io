@@ -33,9 +33,6 @@ p {
 	padding: 20px 20px 20px 20px;
 }
 
-.border {
-	border: 3px solid red;
-}
 .jumbotron{
   min-height: 500px;
   background-image:url(http://i.imgur.com/pxZrN2a.jpg);

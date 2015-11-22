@@ -60,45 +60,20 @@ small {
 
     }
 
-  .container{
 
- width: 500px;
-  padding: 10px;
-  margin: 0 auto;
-  display: inline;
-}
 
 #first {
-  border:2px solid black;
+  border-style: solid;
+  border-color: #820ab8;
   border-radius: 20px;
   width: 300px;
   height:300px;
-  background: white;
-  margin: 20px 20px 20px 0px;
+  background: #b87ad4;
+  margin: ;
   float: center;
 }
 
-#second {
-  border:2px solid black;
-  border-radius: 20px;
-    width: 300px;
-    height:300px;
-    background: white;
-    margin: 20px 20px 20px 0px;
-     float: center;
-}
 
-#third {
-  border:2px solid black;
-  border-radius: 20px;
-  width: 300px;
-  height:300px;
-  background: white;
-  margin: 20px 20px 20px 0px;
-  float: center
-  ;
-  
-}
 
 #social-buttons​button{
 color​:​white;
@@ -111,9 +86,10 @@ margin: 0 auto;
   border-color: #009ad5;
 }
 
-
-
-
+.image {
+  margin: 20px 20px 20px 30px;
+  border: 10px solid purple;
+}
 
 
 
