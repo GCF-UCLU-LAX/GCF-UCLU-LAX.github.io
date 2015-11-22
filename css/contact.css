@@ -37,6 +37,50 @@ div {
 
 
 
+
+
+
+p {
+	font-size: 20px;
+	font-family: Lobster;
+	text-align: center;
+}
+
+#Contactform {
+	text-align: center;
+	padding: 20px;
+	min-height: 50px; }
+
+
+
+  @media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+
+  .image {
+    float: left;
+    margin: 5 5 5 5;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+} 
+
+}
+
+
 input {
     border: 5px solid white; 
     -webkit-box-shadow: 
@@ -52,16 +96,4 @@ input {
     background: rgba(255,255,255,0.5);
     margin: 0 0 10px 0;
 }
-
-
-p {
-	font-size: 20px;
-	font-family: Lobster;
-	text-align: center;
-}
-
-#Contactform {
-	text-align: center;
-	padding: 20px;
-	min-height: 50px; }
 
