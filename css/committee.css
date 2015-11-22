@@ -1,3 +1,12 @@
+#menu {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	z-index: 1000;
+}
 ul {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -22,9 +31,6 @@ h2{
       font-size:20px;
       color: black;
     }
-body {
-	background: #f1f23e;
-}
 div {
   border-radius: 12px;
 }
@@ -44,23 +50,30 @@ div {
 .position{
 	color: blue;
 }
-#menu {
-	position: fixed;
-	width: 100%;
-	left: 0;
-	right: 0;
-	top: 0;
-	margin: auto;
-	z-index: 1000;
-}
-.headerbox {
-	border: 20px double black;
-}
-.all {
-	background-color: red;
-}
+
+
+
 .club {
 	height: 60px;
 	width: 1800px;
 	background: blue;
 }
+
+
+@media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+
+ }

@@ -1,20 +1,35 @@
 #menu {
-	position: fixed;
-	width: 100%;
-	margin: 0 auto;
-	z-index: 1000;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  z-index: 1000;
 }
-
-
- body{
-      text-align: center;
-	
-   }
-
+ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  color: black;
+  text-align: center;
+}
+header {
+  background-size: 100%;
+  text-align: center;
+  color: white;
+}
+div {
+  border-radius: 12px;
+}
 
 .jumbotron{
   min-height: 500px;
-  background-image:url("http://i.imgur.com/uswwh9h.jpg?1");
+  background-image:url("http://i.imgur.com/VZgBJ51.jpg?1");
   background-size:cover;
   background-position:center;
   background-attachment: fixed;
@@ -22,24 +37,49 @@
 
 
 
-header {
-	
-	background-size: cover;
-	text-align: center;
-	color: white;
-	margin: 0 auto;
-	z-index: 1000;
-}
-ul {
-	padding: 10px;
-	background: white;
-}
-li {
-	display: inline;
-	padding: 0px 10px 0px 10px;
-	color: black;
+
+
+
+p {
+	font-size: 20px;
+	font-family: Lobster;
 	text-align: center;
 }
+
+#Contactform {
+	text-align: center;
+	padding: 20px;
+	min-height: 50px; }
+
+
+
+  @media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+
+  .image {
+    float: left;
+    margin: 5 5 5 5;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+} 
+
+}
+
 
 input {
     border: 5px solid white; 
@@ -57,27 +97,3 @@ input {
     margin: 0 0 10px 0;
 }
 
-
-
-p {
-	font-size: 20px;
-	font-family: Lobster;
-	text-align: center;
-}
-
-#Contactform {
-	text-align: center;
-	padding: 20px;
-	min-height: 50px; }
-
-ul {
-	padding: 10px;
-	background: white;
-}
-
-li {
-	display: inline block;
-	padding: 0px 10px 0px 10px;
-	color: black;
-	text-align: center;
-}
