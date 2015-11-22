@@ -92,5 +92,19 @@ margin: 0 auto;
 }
 
 
+@media (max-width: 500px) {
+  li{
+    display: block;
+    padding: 2px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  body {
+    background: purple;
+  }
+}
 
 
