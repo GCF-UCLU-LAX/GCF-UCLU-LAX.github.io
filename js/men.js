@@ -10,3 +10,10 @@ $(document).ready(function(){
         alert("Welcome!!!");
     });
 });
+
+
+$(document).ready(function(event){
+$('.pull-me').click(function(){
+    $('.panel').slideToggle('slow');
+});
+});
