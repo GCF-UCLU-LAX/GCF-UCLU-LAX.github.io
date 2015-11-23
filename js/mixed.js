@@ -6,3 +6,9 @@
 		$(this).removeClass('border');
 	}
 );*/
+
+$(document).ready(function(event){
+$('.pull-me').click(function(){
+    $('.panel').slideToggle('slow');
+});
+});
