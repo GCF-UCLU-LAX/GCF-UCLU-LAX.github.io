@@ -52,15 +52,10 @@ body{
       font-family: Helvetica;
       }
 
-
-
 small {
       font-size:15px;
       font-family: Helvetica;
-
     }
-
-
 
 #first {
   border-style: solid;
@@ -73,7 +68,10 @@ small {
   float: center;
 }
 
-
+#form {
+  text-align: center;
+  padding: 20px;
+  min-height: 50px; }
 
 #social-buttons​button{
 color​:​white;
@@ -117,7 +115,6 @@ margin: 0 auto;
     width: 200px;
     height: 300px;
     border: 1px solid black;
-} 
 
 }
 

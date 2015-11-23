@@ -15,6 +15,23 @@ header {
 	color: white;
 }
 
+@media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+  }
+
 #menu {
 	position: fixed;
 	width: 100%;
@@ -34,7 +51,7 @@ header {
 
 .welcome {
 	text-align: center;
-	padding: 40px 40px 40px 40px;
+	padding: 40px 40px 40px 200px;
 }
 
 #teams {
@@ -54,3 +71,9 @@ div {
   height: 200px;
   border-radius: 12px;
 }
+
+
+
+
+
+

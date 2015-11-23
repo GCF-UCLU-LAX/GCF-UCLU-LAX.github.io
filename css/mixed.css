@@ -30,6 +30,11 @@ header {
 	color: white;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
 .image {
 	border: 10px solid purple;
 }
@@ -38,11 +43,23 @@ h1 {
 	 font-family: Lobster;
 }
 p {
+  font-family: Lobster; Helvetica;
 	color: black;
 	padding: 20px 20px 20px 20px;
 }
 
+<<<<<<< HEAD
 @media(max-width: 800px) {
+=======
+.jumbotron{
+  min-height: 500px;
+  background-image:url(http://i.imgur.com/pxZrN2a.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+
+  @media(max-width: 800px) {
+>>>>>>> origin/master
 
   li {
       display: block;
@@ -53,6 +70,7 @@ p {
     font-size: 20px;
   }
 
+<<<<<<< HEAD
   body{
     background: purple;
    
@@ -61,3 +79,16 @@ p {
 
 }
   
+=======
+
+#first {
+  border-style: solid;
+  border-color: #820ab8;
+  border-radius: 20px;
+  width: 300px;
+  height:300px;
+  background: #b87ad4;
+  margin: 0 auto;
+  float: center;
+}
+>>>>>>> origin/master
