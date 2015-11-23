@@ -16,3 +16,13 @@ $(document).ready(function(){
         alert("Please contact us.Thank you");
     });
 });
+
+
+$(document).ready(function(){
+$( "#target" ).submit(function( event ) {
+  alert( "Handler for .submit() called." );
+  event.preventDefault();
+});
+});
+
+

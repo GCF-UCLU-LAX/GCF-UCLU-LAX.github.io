@@ -15,6 +15,23 @@ header {
 	color: white;
 }
 
+@media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+  }
+
 #menu {
 	position: fixed;
 	width: 100%;
@@ -54,3 +71,9 @@ div {
   height: 200px;
   border-radius: 12px;
 }
+
+
+
+
+
+

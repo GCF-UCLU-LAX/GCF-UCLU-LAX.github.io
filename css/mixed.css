@@ -4,9 +4,16 @@
 	left: 0;
 	right: 0;
 	top: 0;
-	margin: auto;
+	margin: 0 auto;
 	z-index: 1000;
 }
+
+.jumbotron{
+  min-height: 500px;
+  background-image:url(http://i.imgur.com/pxZrN2a.jpg);
+  background-size: cover;
+  background-attachment: fixed;}
+
 ul {	padding-top: 20px;
 	padding-bottom: 20px;
 	background: white;
@@ -23,13 +30,17 @@ header {
 	color: white;
 }
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> origin/master
 .image {
 	border: 10px solid purple;
 }
+
 h1 {
-	color: blue;
+	 font-family: Lobster;
 }
 p {
   font-family: Lobster; Helvetica;
@@ -37,6 +48,9 @@ p {
 	padding: 20px 20px 20px 20px;
 }
 
+<<<<<<< HEAD
+@media(max-width: 800px) {
+=======
 .jumbotron{
   min-height: 500px;
   background-image:url(http://i.imgur.com/pxZrN2a.jpg);
@@ -45,6 +59,7 @@ p {
 
 
   @media(max-width: 800px) {
+>>>>>>> origin/master
 
   li {
       display: block;
@@ -55,6 +70,16 @@ p {
     font-size: 20px;
   }
 
+<<<<<<< HEAD
+  body{
+    background: purple;
+   
+  }
+
+
+}
+  
+=======
 
 #first {
   border-style: solid;
@@ -66,3 +91,4 @@ p {
   margin: 0 auto;
   float: center;
 }
+>>>>>>> origin/master

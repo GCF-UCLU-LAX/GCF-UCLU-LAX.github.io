@@ -5,6 +5,7 @@
    <title> Ladies Page</title>
 
    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
   <link href= '../bootstrap/css/bootstrap.css' rel='stylesheet'>
    <link rel="icon" type="image/png" href="../images/favicomatic/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="../images/favicomatic/favicon-16x16.png" sizes="16x16" />
@@ -43,7 +44,7 @@
       <div class="col-md-8">
         <div class="image">
             <img src= "http://i.imgur.com/FafRAOq.jpg" height=300 width= 600 border="5">
-          </div>
+        </div>
       </div>
     </div>
   
@@ -67,15 +68,23 @@
   </div>
 </div>
 
-<blockquote> <p> Play with no fear of failure.</p> 
-   <footer> <cite> Anonymous </cite></footer> </blockquote> 
 
-   <form role='form'>
+
+   <form id="target" action="ladies.html">
       <label for="email">Find out more</label>
-      <input type="text" name="email" >
-      <button class="btn btn-success">Send </button>
+      <input type="text" name="email" value="Hello there">
+
+      <input type="submit" value="Submit">
+
     </form>
+<div id="other">
+  Trigger the handler
+</div>
   </div>
+
+
+  <blockquote> <p> Play with no fear of failure.</p> 
+   <footer> <cite> Anonymous </cite></footer> </blockquote> 
  
 
   <div id='social-buttons'>
