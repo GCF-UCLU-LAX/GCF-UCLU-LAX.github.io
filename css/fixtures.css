@@ -20,6 +20,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
 }
+
 #menu {
 	position: fixed;
 	width: 100%;
@@ -34,7 +35,10 @@ header {
    background-color: #772277;
  }
 
-
+.table-striped {
+	margin: 20px auto;
+	padding: 50px;
+}
 
 @media(max-width: 800px) {
 

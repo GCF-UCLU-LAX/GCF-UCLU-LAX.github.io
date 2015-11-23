@@ -43,14 +43,36 @@ header {
 }
 .Ladies {
 	text-align: center;
+	margin: 50px 50px 50px 50px;
 }
 .Mens {
 	text-align: center;
+	margin: 50px 50px 50px 50px;
 }
 .Mixed {
 	text-align: center;
+	margin: 50px 50px 50px 50px;
 }
 div {
   height: 200px;
   border-radius: 12px;
 }
+@media(max-width: 800px) {
+
+  li {
+      display: block;
+     padding: 2px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body{
+    background: purple;
+   
+  }
+}
+
+
+
