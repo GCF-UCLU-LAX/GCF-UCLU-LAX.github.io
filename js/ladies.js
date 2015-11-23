@@ -26,3 +26,6 @@ $( "#target" ).submit(function( event ) {
 });
 
 
+$(document).ready(function(event){
+$('.pull-me').click();
+});
