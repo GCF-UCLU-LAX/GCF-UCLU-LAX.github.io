@@ -46,6 +46,42 @@
     text-align:center;
 }
 
+#title {
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+  
+
+  
+    color: black;
+    
+}
+
+#text {
+    background-color: white;
+    border-radius: 10px;
+  
+    font-family: Vivaldi, Cursive;
+    color: black;
+  
+}
+.picture {
+    
+    border-radius: 10px;
+  
+    font-family: Vivaldi, Cursive;
+    color: black;
+  
+}
+
+.highlighted {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 20px #FFD700;
+    cursor:pointer;
+    
+}
 
 #menu {
   position: fixed;
